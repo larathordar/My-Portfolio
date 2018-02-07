@@ -166,8 +166,6 @@ DEPENDENCIES
   pry
   pry-byebug
   rspec
-  tzinfo-data
-  wdm (~> 0.1)
 
 BUNDLED WITH
    1.16.1
