@@ -1,22 +1,46 @@
 
 
 body {
-    background-color: #999;
+  background-color: #999;
 }
-h5 {
-    font-family: 'Nanum Myeongjo', serif;
+
+h5, h6 {
+  font-family: 'Nanum Myeongjo', serif;
 }
-#title{
+
+#title {
   margin-top: 3%;
   margin-left: 2%;
 }
+
 #projects {
   width: 30%;
   float: left;
   margin-right: 1%;
   margin-left: 3%;
   margin-top: 6%;
+  position: relative;
+  display: inline-block;
+  &.img-top {
+    display: none;
+    position: absolute;
+    top: 0;
+    left: 0;
+    z-index: 99;
+  }
+  &:hover .img-top {
+    display: inline;
+  }
 }
+
+#aboutMe.img-top1 {
+  display: none;
+  position: absolute;
+  top: 0;
+  left: 0;
+  z-index: 99;
+}
+
 #AboutMe {
   width: 30%;
   float: left;
@@ -24,13 +48,22 @@ h5 {
   margin-left: 1%;
   margin-top: 6%;
 }
-#contact{
+
+#contact {
   width: 30%;
   float: left;
   margin-right: 3%;
   margin-left: 1%;
   margin-top: 6%;
+  &.img-top2 {
+    display: none;
+    position: absolute;
+    top: 0;
+    left: 0;
+    z-index: 99;
+  }
 }
+
 img {
-  width:100%;
+  width: 100%;
 }
