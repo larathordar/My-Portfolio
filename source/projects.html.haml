@@ -14,12 +14,12 @@
 
 #myProjects
   - data.projects.each do |project|
-    %h4= project[:name]
+    %h6= project[:name]
     %p= project[:description]
 
 #moreProjects
   - data.projects.each do |pro|
-    %h4= pro[:title]
+    %h6= pro[:title]
     %p= pro[:des]
 
 
