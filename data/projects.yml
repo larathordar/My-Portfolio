@@ -1,13 +1,22 @@
 - name: My First Website
-  description: Simple HTML5 site I've build during the PrepCourse
+  description: Simple HTML5 site I've build during the PrepCourse.
 
 - name: FizzBuzz
-  description: My first Test driven ruby project
+  description: My first Test driven ruby project.
 
 - name: ATM
   description: A test driven Ruby project that simutlates and ATM.
 
-- name: BMI Calculator
-  description: A Test driven JavaScript project with user interface.
+- name: Library - challenge
+  description: A simulation of a small library using Ruby.
+
+- title: BMI Calculator
+  des: A Test driven JavaScript project with user interface.
+
+- title: The Cooper test
+  des: A Javascript project which gives results in a cooper test.
+
+- title: My Portfolio
+  des: This Portfolio website.
 
 - describe: Lara Thordardottir is an Icelandic web developer with passion for humanities, culture and design. After getting her bachelor degree in Anthropology from The University Of Iceland 2017 she moved on to learn web development. She is currently enrolled as a student at Craft Academy's Bootcamp in Stockholm and will graduate April 2018.
