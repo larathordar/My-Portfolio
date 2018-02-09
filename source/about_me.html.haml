@@ -12,7 +12,6 @@
     = javascript_include_tag "site"
   %body
 
-
-
 #singlecontainer
-  %p Lara Thordardottir is an Icelandic web developer with passion for humanities, culture and design. After getting her bachelor degree in Anthropology from The University Of Iceland 2017 she moved on to learn web development. She is currently enrolled as a student at Craft Academy's Bootcamp in Stockholm and will graduate April 2019.
+  - data.projects.each do |about|
+    %p= about[:describe]

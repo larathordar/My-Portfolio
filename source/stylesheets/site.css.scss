@@ -3,13 +3,23 @@
 body {
   background-color: #a9a9a9;};
 
-h5, h6 {
-  font-family: 'Nanum Myeongjo', serif;
+
+#message {
+  margin-top: 10%;
+  margin-bottom: 3%;
+  margin-left: 15%;
 }
 #title {
   margin-top: 3%;
   margin-left: 2%;
 }
+#indent{
+  margin-top: 400px;
+  margin-left: 22%;
+  margin-right: 22%;
+}
+
+
 #projects {
   width: 30%;
   height: 42%;
@@ -85,14 +95,57 @@ img {
   height: 100%;
 }
 
-#singlecontainer {
-    font-size: 1.5em;
-    line-height: 1.5em;
-    color: #523aff;
-    letter-spacing: 1px;
-    border: 4px solid #523aff;
+#myProjects {
+    text-align: center;
+    color: black;
+    background-color:#bdbdbd;
     padding: 2em;
-    margin-top: 400px;
-    margin-left: 22%;
-    margin-right: 22%;
+    margin-top: 350px;
+    margin-bottom: 10%;
+
+}
+
+#singlecontainer {
+  text-align: center;
+  color: black;
+  background-color:#bdbdbd;
+  padding: 2em;
+  margin-top: 350px;
+  margin-bottom: 10%;
+  margin-right: 20%;
+  margin-left: 20%
+}
+
+
+#email{
+    margin-top:5%;
+    margin-left: 40%;
+    margin-right: 30%;
+    display: inline-block;
+    text-align: center;
+}
+
+
+#github{
+    width: 75px;
+    height: 75px;
+    float: left;
+
+}
+
+#facebook{
+    width: 75px;
+    height: 75px;
+    float: left;
+}
+
+#instagram{
+    width: 75px;
+    height: 75px;
+    float: left;
+}
+
+#background{
+  backround: #bdbdbd;
+
 }
