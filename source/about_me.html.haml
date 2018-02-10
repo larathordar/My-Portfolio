@@ -15,3 +15,10 @@
 #singlecontainer
   - data.projects.each do |about|
     %p= about[:describe]
+
+#workExperience
+  - data.work_experience.each do |work|
+    %h4= work[:headline]
+    %p= work[:time]
+    %p= work[:place]
+    %p= work[:line]
