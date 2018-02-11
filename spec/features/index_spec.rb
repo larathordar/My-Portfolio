@@ -35,7 +35,6 @@ describe 'about_me', type: :feature do
     within '#skills' do
       expect(page).to have_content 'Web development'
       expect(page).to have_content 'Languages'
-      expect(page).to have_content 'Icelandic and English - Fluent, Danish and French - Intermediatet'
       expect(page).to have_content 'Management'
       expect(page).to have_content 'Costumer service'
       expect(page).to have_content '-----------------------------------'

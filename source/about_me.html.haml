@@ -12,7 +12,7 @@
     = javascript_include_tag "site"
   %body
 
-#aboutMe
+#singlecontainer
   - data.projects.each do |about|
     %h7= about[:describe]
 
@@ -26,12 +26,14 @@
 #education
   - data.education.each do |study|
     %h4= study[:header]
+    %p= study[:lin]
     %p= study[:school]
     %p= study[:about]
     %p= study[:line]
 
 #skills
-  - data.skills.each do |skill|
-    %h4= skill[:top]
+  -data.skills.each do |skill|
+    %h4= skill[:title]
+    %p= skill[:top]
     %p= skill[:describe]
     %p= skill[:line]
