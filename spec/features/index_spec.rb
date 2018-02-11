@@ -28,4 +28,18 @@ describe 'about_me', type: :feature do
     end
   end
 
+  it 'displays skills list' do
+    visit 'about_me.html'
+
+    expect(page).to have_css '#skills'
+    within '#skills' do
+      expect(page).to have_content 'Web development'
+      expect(page).to have_content 'Languages'
+      expect(page).to have_content 'Icelandic and English - Fluent, Danish and French - Intermediatet'
+      expect(page).to have_content 'Management'
+      expect(page).to have_content 'Costumer service'
+      expect(page).to have_content '-----------------------------------'
+    end
+  end
+
 end
