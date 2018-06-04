@@ -1,6 +1,6 @@
 source 'https://rubygems.org'
 
-ruby '2.3.1'
+ruby '2.2.3'
 
 gem 'middleman-deploy', '= 2.0.0.pre.alpha'
 gem 'middleman', '~> 4.2'
