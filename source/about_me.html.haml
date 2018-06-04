@@ -19,21 +19,22 @@
 #workExperience
   - data.work_experience.each do |work|
     %h4= work[:headline]
-    %p= work[:time]
+    %h6= work[:time]
     %p= work[:place]
+    %p= work[:descirib]
     %p= work[:line]
 
 #education
   - data.education.each do |study|
     %h4= study[:header]
     %p= study[:lin]
-    %p= study[:school]
+    %h6= study[:school]
     %p= study[:about]
     %p= study[:line]
 
 #skills
   -data.skills.each do |skill|
     %h4= skill[:title]
-    %p= skill[:top]
+    %h6= skill[:top]
     %p= skill[:describe]
     %p= skill[:line]

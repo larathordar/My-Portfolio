@@ -20,14 +20,15 @@ body {
 }
 
 #workExperience{
-width: 30%;
-float: left;
-margin-right: 1%;
-margin-left: 3%;
-margin-top: 1%;
-margin-bottom: 3%;
-background-color:#bdbdbd;
-padding: 2%;
+  width: 30%;
+  float: left;
+  margin-right: 1%;
+  margin-left: 3%;
+  margin-top: 1%;
+  margin-bottom: 3%;
+  background-color:#bdbdbd;
+  padding: 2%;
+  height: 95vh;
 }
 
 #projects {
@@ -116,6 +117,7 @@ img {
     margin-bottom: 10%;
     margin-right: 2.5%;
     margin-left: 5%;
+    height: 70vh;
 
 }
 
@@ -140,6 +142,7 @@ img {
   margin-top: 1%;
   background-color:#bdbdbd;
   padding: 2%;
+  height: 95vh;
 }
 
 #singlecontainer {
@@ -147,7 +150,7 @@ img {
   color: black;
   background-color:#bdbdbd;
   padding: 2em;
-  margin-top: 470px;
+  margin-top: 500px;
   margin-bottom: 2%;
   margin-right: 3%;
   margin-left: 3%;
@@ -161,6 +164,7 @@ img {
   margin-top: 1%;
   background-color:#bdbdbd;
   padding: 2%;
+  height: 95vh;
 }
 
 #email{
