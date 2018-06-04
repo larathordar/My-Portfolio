@@ -107,31 +107,38 @@ img {
 }
 
 #myProjects {
-    width: 40%;
-    text-align: left;
-    float: left;
-    color: black;
-    background-color:#bdbdbd;
-    padding: 2em;
-    margin-top: 50px;
-    margin-bottom: 10%;
-    margin-right: 2.5%;
-    margin-left: 5%;
-    height: 70vh;
-
+  width: 30%;
+  float: left;
+  margin-right: 1%;
+  margin-left: 3%;
+  margin-top: 1%;
+  margin-bottom: 3%;
+  background-color:#bdbdbd;
+  padding: 2%;
+  height: 65vh;
 }
 
+
 #moreProjects {
-    width: 40%;
-    float:left;
-    text-align: left;
-    color: black;
-    background-color:#bdbdbd;
-    padding: 2em;
-    margin-top: 50px;
-    margin-bottom: 10%;
-    margin-right: 5%;
-    margin-left: 2.5%;
+  width: 30%;
+  float: left;
+  margin-right: 1%;
+  margin-left: 1%;
+  margin-top: 1%;
+  background-color:#bdbdbd;
+  padding: 2%;
+  height: 65vh;
+}
+
+#inprogress {
+  width: 30%;
+  float: left;
+  margin-right: 1%;
+  margin-left: 1%;
+  margin-top: 1%;
+  background-color:#bdbdbd;
+  padding: 1%;
+  height: 65vh;
 }
 
 #education{
@@ -144,6 +151,13 @@ img {
   padding: 2%;
   height: 95vh;
 }
+
+a:hover, a:visited, a:link, a:active
+{
+    text-decoration: none !important;
+    color: black !important;
+}
+
 
 #singlecontainer {
   text-align: center;

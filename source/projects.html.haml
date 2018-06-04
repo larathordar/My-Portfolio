@@ -12,15 +12,49 @@
     = javascript_include_tag "site"
   %body
 
-#myProjects
-  - data.projects.each do |project|
-    %h6= project[:name]
-    %p= project[:description]
+  #myProjects
+    %h2 Projects
+    %br
+    %h6
+      %a{:href => "https://larathordar.github.io/"} My First Site
+    %p My first coding project. A simple HTML5 site I buit.
+    %h6 FizzBuzz
+    %p My first Test driven ruby project. A simple children's math game.
+    %h6 ATM
+    %p A test driven Ruby project that simutlates an ATM.
+    %h6 The Library challenge
+    %p A simulation of a small library using Ruby.
+    %h6 BMI Calculator
+    %p  Test driven JavaScript project with user interface
 
-#moreProjects
-  - data.projects.each do |pro|
-    %h6= pro[:title]
-    %p= pro[:des]
+
+  #moreProjects
+    %h2 Projects
+    %h6
+    %br
+      %a{:href => "https://ingloriousbites23.herokuapp.com/"} Inglourious Bites
+    %p A web application built in Ruby for a made up restaurant.
+    %h6
+      %a{:href => "https://euphonyapp.herokuapp.com/"} Euphony
+    %p A web application that uses Spotify's API to find music based on the mood you are in.
+    %h6
+      %a{:href => "https://dreamteam-publications.herokuapp.com/"} Dreamteam Publications
+    %p A web application made for a fake news website
+    %h6
+      %a{:href => "https://itunes.apple.com/DK/app/id1370912583?mt=8"} Ben & Nik Invitational
+    %p This was my final project at CraftAcademy developing an application for a Swedish skiing event. The purpose of the app is to give the audience an opportunity to have impact on the event's results.
+
+  #inprogress
+    %br
+    %h2 In Progress
+    %br
+    %h6 Bó arkitektar.
+    %p A website for a architecture firm based in Iceland.
+    %h6 Bears Ice Cream Company.
+    %p An application for an Ice cream parlour based in London.
+
+
+
 
 
 
